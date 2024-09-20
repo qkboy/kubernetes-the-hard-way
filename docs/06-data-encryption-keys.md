@@ -17,7 +17,7 @@ export ENCRYPTION_KEY=$(head -c 32 /dev/urandom | base64)
 Create the `encryption-config.yaml` encryption config file:
 
 ```bash
-envsubst < configs/encryption-config.yaml \
+envsubst < configs/encryption-config.yaml.tmpl \
   > encryption-config.yaml
 ```
 

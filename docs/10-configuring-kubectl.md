@@ -25,7 +25,7 @@ curl -k --cacert ca.crt \
   "buildDate": "2023-10-18T11:33:18Z",
   "goVersion": "go1.20.10",
   "compiler": "gc",
-  "platform": "linux/arm64"
+  "platform": "linux/amd64"
 }
 ```
 
